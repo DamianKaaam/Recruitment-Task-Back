@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mysql2": "types/mysql2",
+    "@types/node": "^12.12.12",
+    "ts-node": "^8.5.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.0.1"
+  }
+}
